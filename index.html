@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <link rel="stylesheet" href="styles/sbCard.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/inputs.css">
+    <script src="scripts/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="inputs">
+            <div class="t">
+                <div>Home Handicap</div>
+                <input type="text" class="home-handicap" placeholder="Home Handicap">
+                <div>Sportbook Total Points</div>
+                <input type="text" class="sportbook-points" placeholder="Sportbook Points">
+                <div>Quarter</div>
+                <input type="text" class="quarter" placeholder="Quarter">
+                <div>Minute</div>
+                <input type="text" class="minute" placeholder="Minute">
+                <div>Quarter duraction</div>
+                <input type="text" class="quarter-minutes" placeholder="Quarter Minute">
+                <div>Home points</div>
+                <input type="text" class="home-points" placeholder="Home Points">
+                <div>Away Points</div>
+                <input type="text" class="away-points" placeholder="Away Points">
+                <button class="button">SUBMIT</button>
+            </div>
+            
+        </div>
+        <div class="cards">
+            <div class="sportbook-predict">
+                <div class="header">
+                    <img class="img-sb" src="assets/image 7.png" alt="" srcset="">
+                    <h2 class="card-title">Sportbook Prediction</h2>
+                </div>
+                
+        
+                <div class="sb-final-score box">
+                    <h3 class="card-subtitle">Final Score</h3>
+                    <div class="teste">
+                        <div class="sb-home">
+                            <div class="sb-fs-h result">0</div>
+                            <div class="title">Home</div>
+                        </div>
+                        
+                        <div class="sb-away">
+                            <div class="sb-fs-a result">0</div>
+                            <div class="title">Away</div>
+                        </div>
+                    </div> 
+                </div>
+        
+                <div class="sb-points-difference box">
+                    <div class="card-subtitle">Points Difference</div>
+                    <div class="sb-pd result">0</div>
+                </div>
+        
+                <div class="sb-total-points box">
+                    <div class="card-subtitle">Total Points</div>
+                    <div class="sb-total result">0</div>
+                </div>
+        
+                <div class="sb-points-per-minute box">
+                    <div class="card-subtitle">PPM</div>
+                    <div class="sb-ppm result">0.00</div>
+                    
+                </div>
+                
+        
+            </div>
+            <!-- FAIR LINE --> 
+            <div class="fl sportbook-predict">
+                <div class="header">
+                    <img class="img-sb" src="assets/best-value.gif" alt="" srcset="">
+                    <h2 class="card-title">FairLine Prediction</h2>
+                </div>
+                
+        
+                <div class="sb-final-score box">
+                    <h3 class="card-subtitle">Final Score</h3>
+                    <div class="teste">
+                        <div class="sb-home">
+                            <div class="fsh sb-fs-h result">0</div>
+                            <div class="title">Home</div>
+                        </div>
+                        
+                        <div class="sb-away">
+                            <div class="fsa sb-fs-a result">0</div>
+                            <div class="title">Away</div>
+                        </div>
+                    </div> 
+                </div>
+        
+                <div class="sb-points-difference box">
+                    <div class="card-subtitle">Points Difference</div>
+                    <div class="fpd sb-pd result">0</div>
+                </div>
+        
+                <div class="sb-total-points box">
+                    <div class="card-subtitle">Total Points</div>
+                    <div class="ftp sb-total result">0</div>
+                </div>
+        
+                <div class="sb-points-per-minute box">
+                    <div class="card-subtitle">PPM</div>
+                    <div class="fppm sb-ppm result">0.00</div>
+                </div>
+
+                <div class="bet-choice">
+                    <div class="card-subtitle">Value bet</div>
+                    <div class="fl-value-bet result">---</div>
+                </div>
+        
+            </div>
+        </div>
+        
+    </div>
+    
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+.result{
+    font-size: 25px;
+}
+.sportbook-predict{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    background-color: white;
+    margin: 0px 20px 30px 0px ;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.card-subtitle{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.teste{
+    display: flex;
+    flex-direction: row;
+}
+
+.sb-final-score{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 10px 0px;
+    
+}
+
+.sb-home{
+    padding-right: 10px;
+}
+.sb-away{
+    padding-left: 10px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-sb{
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+.sb-points-difference{
+    padding: 0px 0px 0px 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 100px;
+  
+}
+.sb-points-per-minute{
+    padding: 0px 0px 0px 30px;
+}
+.fl{
+    display: flex;
+    height: 350px;
+    justify-content: space-around;
+    
+}
+.bet-choice{
+    width: 100%;
+    margin-top: -30px;
+    padding: 0px 0px 0px 12px;
+
+}
